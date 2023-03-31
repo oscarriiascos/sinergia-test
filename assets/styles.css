@@ -1,0 +1,28 @@
+.users-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 800px;
+    font-family: Arial, sans-serif;
+}
+
+.users-table th,
+.users-table td {
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+}
+
+.users-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.users-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.users-table tbody tr:hover {
+    background-color: #e5e5e5;
+}
